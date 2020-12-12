@@ -1,0 +1,9 @@
+# The level players can fall to
+min_y_level: 135
+
+# The server spawn point
+spawn_x: 0.5
+spawn_y: 163.5
+spawn_z: 0.5
+yaw: -270
+pitch: 0

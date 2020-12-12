@@ -1,0 +1,25 @@
+name: ${project.name}
+main: com.thekingelessar.fishslap.FishSlap
+version: ${project.version}
+author: TheKingElessar
+dependencies: []
+description: ${project.description}
+website: ${project.url}
+permissions:
+  fishslap.setspawn:
+    description: Allows to set fish slap spawn.
+    default: op
+  fishslap.level:
+    description: Allows to set fish slap minimum level.
+    default: op
+  fishslap.reload:
+    description: Allows to reload the config.
+    default: op
+commands:
+  fishslap:
+    description: Control fish slap.
+    usage: |
+      §5/fishslap §fsetspawn §7(Set spawn to current location)
+      §5/fishslap §fsetspawn <x> <y> <z> <yaw> <pitch> §7(Will default to facing north if no directional arguments are used)
+      §5/fishslap §flevel <y level> §7(Set level players will be teleported to spawn from)
+      §5/fishslap §freload §7(Reload config)
